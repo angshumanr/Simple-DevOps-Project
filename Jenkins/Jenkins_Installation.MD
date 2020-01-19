@@ -35,6 +35,7 @@ Check Previous Java version ( java --version), If it is below 1.8 then first rem
    ```
 
 ## Install Jenkins
+Additional step ( optional ) : change host name of Jenkins server ( hostname jenkins )
  You can install jenkins using the rpm or by setting up the repo. We will set up the repo so that we can update it easily in the future.
 1. Get the latest version of jenkins from https://pkg.jenkins.io/redhat-stable/ and install
    ```sh
