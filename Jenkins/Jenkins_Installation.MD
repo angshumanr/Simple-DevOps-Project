@@ -47,7 +47,8 @@ Check Previous Java version ( java --version), If it is below 1.8 then first rem
    ### Start Jenkins
    ```sh
    # Start jenkins service
-   service jenkins start
+   Check Jenkins status : service jenkins status
+   Start Jenkins : service jenkins start
 
    # Setup Jenkins to start at boot,
    chkconfig jenkins on
